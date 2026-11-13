@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+# Large generated datasets (allow small documented samples)
+data/generated/
+data/*.parquet
+# Power BI temp files
+*.pbit.tmp
